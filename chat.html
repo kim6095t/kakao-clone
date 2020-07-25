@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Chats |kakao clone</title>
+</head>
+    <body class="chat-body">
+        <div class="header-wrapper">
+            <div class="status_bar">
+                <div class="status-bar_column">
+                    <span class="status-bar_clock">13:54</span>
+                </div>
+                <div class="status-bar_column">
+                    <i class="far fa-clock"></i>
+                    <i class="fas fa-volume-mute"></i>
+                    <i class="fas fa-wifi"></i>
+                    <span class="status-bar_battery-level">100%</span>
+                    <i class="fas fa-battery-full"></i>
+                </div>
+            </div>
+            <header class="header">
+                <div class="header_header-column">
+                    <a href="index.html" class="header_back-btn">
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                    <h1 class="header_title">best friend</h1>
+                </div>
+                <div class="header_header-column">
+                    <span class="header_icon">
+                        <i class="fas fa-cog"></i>
+                    </span>
+                    <span class="header_icon">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </div>
+            </header>
+        </div>
+
+        <main class="chat">
+            <ul class="chat_messages">
+                <span class="chat_timestamp">Friday, January 11, 2019</span>
+                <li class="incoming-message message">
+                    <img src="image/test.jpg" class="friend_avatar">
+                    <div class="message_content">
+                        <span class="message_author">Best friend</span>
+                        <span class="message_bubble">
+                            congrats I love you
+                        </span>
+                    </div>
+                    <span class="message_timestamp"></span>
+                </li>
+                <li class="sending-message message">
+                    <span class="message_timestamp"></span>
+                    <div class="message_content">
+                        <span class="message_bubble">
+                            congrats I love you
+                        </span>
+                        
+                    </div>                        
+                </li>
+                <li class="incoming-message message">
+                    <img src="image/test.jpg" class="friend_avatar">
+                    <div class="message_content">
+                        <span class="message_author">Best friend</span>
+                        <span class="message_bubble">
+                            congrats I love you
+                        </span>
+                    </div>
+                    <span class="message_timestamp"></span>
+                </li>
+                <li class="sending-message message">
+                    <span class="message_timestamp"></span>
+                    <div class="message_content">
+                        <span class="message_bubble">
+                            congrats I love you
+                        </span>                        
+                    </div>                        
+                </li>
+
+            </ul>
+            
+        </main>
+        <div class="bigscreen">
+            <span class="bigScreen">화면을 작게 만들어 주세요.</span>
+        </div>
+        
+        <div class="chat_write">
+            <input type="text" 
+                placeholder="Send message" 
+                class="chat_write-input"/>
+            <div class="chat_write-left chat_icon">
+                <i class="fas fa-plus"></i>
+            </div>
+
+            <div class="chat_write-right chat_icon">
+                <span class="chat_write-icon">
+                    <i class="far fa-smile-wink"></i>
+                </span>
+                <span class="chat_write-icon">
+                    <i class="fas fa-microphone"></i>
+                </span>            
+            </div>
+        </div>
+    </body>
+</html>
